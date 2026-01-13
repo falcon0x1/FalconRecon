@@ -1,8 +1,47 @@
-# Ignore recon results and temporary files
+# Results directory
 results/
+
+# Log files
 *.log
+
+# Temporary files
 *.tmp
-*.bak
-*.swp
+*.temp
+.*.swp
+*~
+
+# OS files
 .DS_Store
-.env
+Thumbs.db
+
+# IDE/Editor
+.vscode/
+.idea/
+*.sublime-*
+
+# Test outputs
+test_results/
+
+# User config (optional - user may want to track)
+# ~/.falconrecon.conf
+
+# Go build files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Screenshots (can be large)
+screens/
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+
+# Nuclei templates (pulled automatically)
+.nuclei/
+
+# Backup files
+*.bak
+*.backup
