@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Reconnaissance Framework</strong><br>
-  <em>🐦‍🔥 Flying low, scanning high 🐦‍🔥</em>
+  <em>𓅃 Flying low, scanning high 𓅃</em>
 </p>
 
 <p align="center">
@@ -17,17 +17,17 @@
 </p>
 
 <p align="center">
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-features">Features</a> •
-  <a href="#-modules">Modules</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-usage">Usage</a> •
-  <a href="#-contributing">Contributing</a>
+  <a href="#quick-start">Quick Start</a> •
+  <a href="#features">Features</a> •
+  <a href="#modules">Modules</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#contributing">Contributing</a>
 </p>
 
 ---
 
-## 👁️ Overview
+## Overview
 
 **FalconRecon** is a powerful, lightweight Bash-based reconnaissance automation framework designed for penetration testers and security researchers. It chains together industry-standard tools into an elegant workflow with a distinctive Egyptian falcon theme.
 
@@ -45,25 +45,25 @@
 
 ---
 
-## ✨ Features
+## Features
 
 | Feature | Description |
 |---------|-------------|
 | 𓅈 **Subdomain Discovery** | Enumerate subdomains using subfinder |
 | 🪽 **Live Host Detection** | Probe HTTP/HTTPS with httpx + tech detection |
-| 📸 **Screenshot Capture** | Visual recon with gowitness |
+| 𓅇 **Screenshot Capture** | Visual recon with gowitness |
 | 👁️ **Port Scanning** | Top 1000 ports with nmap + service detection |
 | 𓅂 **Directory Bruteforce** | Find hidden paths with gobuster |
 | 𓅆 **Technology Detection** | Identify tech stacks automatically |
-| 𓅇 **URL Crawling** | Deep crawl with katana |
+| � **URL Crawling** | Deep crawl with katana |
 | 📡 **DNS Reconnaissance** | Full DNS record enumeration + WHOIS |
 | 🔐 **Vulnerability Scanning** | Automated vuln detection with nuclei |
-| 📊 **HTML Reports** | Beautiful, shareable reports |
-| ⚙️ **Config File Support** | Customizable settings |
+| 𓅃 **HTML Reports** | Beautiful, shareable reports |
+| 𓆲 **Config File Support** | Customizable settings |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -82,7 +82,7 @@ chmod +x FalconRecon.sh setup_tools.sh
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 
@@ -126,7 +126,7 @@ The `setup_tools.sh` script automatically installs:
 
 ---
 
-## 🎯 Usage
+## Usage
 
 ### Interactive Mode
 
@@ -141,32 +141,20 @@ You'll be prompted for a target domain, then presented with an interactive menu:
 ║  𓅃  F A L C O N   R E C O N                                      ║
 ╠══════════════════════════════════════════════════════════════════╣
 ║  𓆲 RECONNAISSANCE MODULES                                       ║
-║   [1] 🐦‍🔥 Full Auto Scan      [6] 𓅂 Directory Brute            ║
+║   [1] 𓅃 Full Auto Scan      [6] 𓅂 Directory Brute            ║
 ║   [2] 𓅈 Subdomain Hunter     [7] 𓅆 Tech Detection             ║
-║   [3] 🪽 Live Host Probe      [8] 𓅇 URL Crawler                ║
-║   [4] 📸 Screenshot Capture   [9] 🔐 Vuln Scan                  ║
+║   [3] 🪽 Live Host Probe      [8] � URL Crawler                ║
+║   [4] 𓅇 Screenshot Capture   [9] 🔐 Vuln Scan                  ║
 ║   [5] 👁️ Port Scanner         [10] 📡 DNS Recon                 ║
 ║  𓆲 UTILITIES                                                    ║
-║  [11] 📊 Generate Report     [12] 𖤍 View Summary               ║
-║  [13] ⚙️  Settings            [0] 🚪 Exit                       ║
+║  [11] 𓅃 Generate Report     [12] 𖤍 View Summary               ║
+║  [13] 𓆲 Settings            [0] Exit                       ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
 
-### Full Auto Scan
+---
 
-Select option `[1]` for comprehensive reconnaissance:
-
-1. DNS reconnaissance
-2. Subdomain enumeration
-3. Live host detection
-4. Screenshot capture
-5. Port scanning
-6. Directory bruteforce
-7. Technology detection
-8. Vulnerability scanning
-9. HTML report generation
-
-### Output Structure
+## Output Structure
 
 ```
 results/
@@ -188,7 +176,7 @@ results/
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Create a config file at `~/.falconrecon.conf`:
 
@@ -212,7 +200,7 @@ Or use the in-app settings menu (option `[13]`).
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <details>
 <summary>Click to expand</summary>
@@ -230,7 +218,7 @@ Or use the in-app settings menu (option `[13]`).
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -242,13 +230,13 @@ Contributions are welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [ProjectDiscovery](https://projectdiscovery.io/) for subfinder, httpx, katana, nuclei
 - [Sensepost](https://github.com/sensepost) for gowitness
@@ -257,7 +245,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 📞 Contact
+## Contact
 
 **Mahmoud Elshorbagy**
 
@@ -267,5 +255,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <p align="center">
   <strong>𓅃 FalconRecon v2.0</strong><br>
-  <em>🐦‍🔥 Flying low, scanning high 🐦‍🔥</em>
+  <em>𓅃 Flying low, scanning high 𓅃</em>
 </p>
